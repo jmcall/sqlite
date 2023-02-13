@@ -28,7 +28,7 @@ dbExecute(mydb, "CREATE TABLE mtcars (
           gear REAL,
           carb REAL)")
 
-#Wrtie Data to database table
+#Wrtite Data to database table
 
 dbWriteTable(mydb, "mtcars", df, append = TRUE,temporary = FALSE, row.names = FALSE)
 
